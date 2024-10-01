@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-title {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ededed;
+    padding: 0.5rem 1rem;
+    background: #000000;
+    color: #fff;
+}
+
+.header img {
+    height: 90px;
+    /* Set the height of your image  */
+    width: auto;
+    /* Keep the height/width ratio of source image  */
+}
+
+#in-touch img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 13px;
+}

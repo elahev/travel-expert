@@ -1,0 +1,20 @@
+.contact {
+  box-shadow: 0 1px 3px 0;
+  padding: 2px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+.agents {
+    box-shadow: 0 1px 3px 0;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+ul {
+    list-style: none;
+  }
+  
+ul li::before {
+    content: "+ ";
+  }
+  

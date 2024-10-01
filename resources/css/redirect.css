@@ -1,0 +1,16 @@
+body {
+  max-width: 300px;
+}
+a, p{
+  display: block;
+  text-align: center;
+}
+#counter {
+  font-weight: bold;
+
+}
+input[type="submit"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

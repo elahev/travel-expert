@@ -1,0 +1,78 @@
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+}
+.reg{
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+#dataSection{
+  width: 60%;
+}
+#description{
+  width: 39%;
+}
+textarea {
+  width: 98%;
+  height: 4rem;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"], textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 98%;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+form input[type="submit"]{
+  background-color: #416342;
+}
+form input[type="reset"]{ 
+  background-color: rgb(116, 51, 51);
+}
+
+span {
+  font-size: small;
+  color: red;
+}
+
+.form-input {
+  height: 95px;
+}
+
+.form-textarea {
+  height: 120px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+}

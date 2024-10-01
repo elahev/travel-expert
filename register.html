@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register with Travel Experts</title>
+    <link rel="stylesheet" href="resources/css/common.css">
+    <link rel="stylesheet" href="resources/css/form.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="resources/js/register.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="./index.html">
+            <img class="logo-image" src="./resources/images/logo.png" alt="Travel Experts Logo" class="logo">
+        </a>
+        <h1 class="title">Welcome to Travel Experts</h1>
+    </header>
+    <h1 class="reg">Register</h1>
+    <main>
+        <form onsubmit="return isSubmit();" onreset="return isReset();">
+            <section id="dataSection">
+                <div class="form-input">
+                    <label for="name">* Name: </label>
+                    <input type="text" id="name" name="name">
+                    <p class="error" id="pName" hidden>Name field is required<br></p>
+                </div>
+
+                <div class="form-input">
+                    <label for="email">* Email:
+                    </label>
+                    <input type="email" id="email" name="email">
+                    <p class="error" id="pEmail" hidden>Email is required<br></p>
+                </div>
+                <div class="form-textarea">
+                    <label for="address">Address: </label>
+                    <textarea id="address" name="address" cols="100"> </textarea>
+                    <p class="error" id="pAddress" hidden>Address is required<br></p>
+                </div>
+                <div class="form-input">
+                    <label for="postalCode">Postal Code: </label>
+                    <input type="text" id="postalCode" name="postalCode">
+                    <p class="error" id="pPostalCode" hidden>Postal code is required<br></p>
+                </div>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </section>
+        </form>
+
+    </main>
+    <section class="get-in-touch" id="in-touch">
+        <h2 class="main-title">Get in Touch</h2>
+        <a href="./contact.html"><img src="./resources/images/contact-link.jfif" alt="Contact Us"></a>
+        <a href="./register.html"><img src="./resources/images/register-link.jfif" alt="Register"></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Experts. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
